@@ -7,10 +7,24 @@ body {
   color: #fff;
 }
 
+#features {
+  padding: 7% 15%;
+}
+
 h1 {
   font-family: Montserrat-Black;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h3 {
+  font-family: montserrat-bold;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 .container-fluid {
@@ -47,4 +61,20 @@ btn1 {
 .title-image {
   width: 60%;
   rotate: 18deg;
+}
+
+.circle {
+  padding-bottom: 15px;
+}
+
+.fa-circle-check:hover {
+  color: #ff4c68;
+}
+
+.fa-circle:hover {
+  color: #ff4c68;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
 }
