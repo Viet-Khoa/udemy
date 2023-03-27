@@ -125,3 +125,11 @@ btn1 {
   border-color: black;
   margin: 6px;
 }
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-header {
+  font-size: 1rem;
+}
