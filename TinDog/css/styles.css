@@ -137,3 +137,49 @@ btn1 {
 .card-header {
   font-size: 1rem;
 }
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 9% 15%;
+  text-align: center;
+}
+
+.cta-footer {
+  font-family: Montserrat-Black;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer-copy {
+  text-align: center;
+  padding: 1% 15%;
+}
+
+.btn-footer {
+  margin: 1%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.fa-icons {
+  padding: 12px;
+  margin-top: 10px;
+}
