@@ -1,10 +1,12 @@
 body {
-  font-family: Montserrat-Black;
+  font-family: "Montserrat-Black";
+  text-align: center;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 #features {
@@ -16,13 +18,11 @@ body {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
 #press {
   padding-bottom: 3%;
   background-color: #ef8172;
-  text-align: center;
 }
 
 #pricing {
@@ -30,19 +30,19 @@ body {
 }
 
 h1 {
-  font-family: Montserrat-Black;
+  font-family: "Montserrat-Bold";
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
 h2 {
-  font-family: Montserrat-Bold;
+  font-family: "Montserrat-Bold";
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: montserrat-bold;
+  font-family: "Montserrat-Bold";
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -52,7 +52,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 btn1 {
@@ -64,7 +64,7 @@ btn1 {
 }
 
 .navbar-brand {
-  font-family: Ubuntu;
+  font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -75,7 +75,7 @@ btn1 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: Montserat-light;
+  font-family: "Montserat-light";
 }
 
 .download-button {
@@ -93,14 +93,8 @@ btn1 {
   padding-bottom: 15px;
 }
 
-.fa-circle-check:hover {
-  color: #ff4c68;
-}
-
-.fa-circle:hover {
-  color: #ff4c68;
-}
-
+.fa-circle-check:hover,
+.fa-circle:hover,
 .fa-heart:hover {
   color: #ff4c68;
 }
@@ -119,10 +113,6 @@ btn1 {
 .press-image {
   width: 15%;
   margin: 20px 20px 50px;
-}
-
-.carousel-item {
-  padding: 7% 15%;
 }
 
 .card {
@@ -151,18 +141,15 @@ btn1 {
 
 #cta {
   background-color: #ff4c68;
-  padding: 9% 15%;
-  text-align: center;
 }
 
 .cta-footer {
-  font-family: Montserrat-Black;
+  font-family: "Montserrat-Black";
   font-size: 3rem;
   color: #fff;
 }
 
 .footer-copy {
-  text-align: center;
   padding: 1% 15%;
 }
 
@@ -172,11 +159,6 @@ btn1 {
 
 #footer {
   background-color: #fff;
-  padding: 3% 15%;
-}
-
-.footer-icons {
-  text-align: center;
 }
 
 .fa-icons {
