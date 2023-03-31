@@ -3,10 +3,17 @@ body {
   text-align: center;
 }
 
-#title {
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
-  text-align: left;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 #features {
@@ -51,14 +58,6 @@ p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 7% 15%;
-}
-
-btn1 {
-  background-color: #ff4c68;
-}
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -80,6 +79,11 @@ btn1 {
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-image {
@@ -155,10 +159,6 @@ btn1 {
 
 .btn-footer {
   margin: 1%;
-}
-
-#footer {
-  background-color: #fff;
 }
 
 .fa-icons {
